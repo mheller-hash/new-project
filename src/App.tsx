@@ -215,7 +215,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F5F5F4] text-[#1A1A1A] font-sans">
+    <div className="min-h-screen bg-[#E6F0FA] text-[#1A1A1A] font-sans">
       {/* Header */}
       <header className="border-b border-[#E5E5E5] bg-white px-6 py-4 flex items-center justify-between sticky top-0 z-10">
         <div className="flex items-center gap-2">
@@ -335,7 +335,7 @@ export default function App() {
                 exit={{ opacity: 0, y: -20 }}
                 className="h-full min-h-[600px] bg-white rounded-3xl border-2 border-dashed border-[#E5E5E5] flex flex-col items-center justify-center p-12 text-center"
               >
-                <div className="w-20 h-20 bg-[#F5F5F4] rounded-full flex items-center justify-center mb-6">
+                <div className="w-20 h-20 bg-[#C3DAF5] rounded-full flex items-center justify-center mb-6">
                   <Layout className="text-[#CCC] w-10 h-10" />
                 </div>
                 <h2 className="text-2xl font-semibold mb-2">Ready to create?</h2>
